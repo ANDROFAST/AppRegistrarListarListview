@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="1">
+    tools:context="com.androidmorefast.moden.applistaragregarlistview.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nueva fruta" />
+
+    <EditText android:id="@+id/txtFruta"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btnNuevaFruta"
+        android:text="REGISTRAR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione una fruta"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:id="@+id/listFrutas"
+        android:longClickable="false"
+        android:layout_weight="0.69" />
+
+</LinearLayout>
